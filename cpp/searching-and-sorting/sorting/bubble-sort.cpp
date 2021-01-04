@@ -13,8 +13,8 @@ void bubbleSort(int arr[], int n) {		//we will go from begining to the end of ar
 	for (int i = 0; i < n - 1; i++) {
 		for (int j = 0; j < n - 1 - i; j++)		
 			if (arr[j] > arr[j+1]) swap(arr[j], arr[j+1]);
-	}	//after finishing 1st sort, max number will be at index n - 1 - 0 so we will minus the length need to sort by 1
-		//after finishing i times sort, max number will be at index n -1 - i, so we will continue sort array with the length is previous length - i
+	}	//after finishing 1st sorting, max number will be located at index n - 1 - 0 so we will minus the length need to sort by 1
+		//after finishing i times sort, max number will be located at index n -1 - i, so we will continue sort array with the length is previous length - i
 }
 
 void print(int arr[], int n) {
